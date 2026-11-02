@@ -62,7 +62,7 @@ export default function ClassesSection() {
               </ul>
 
               <Link
-                href="/reservation"
+                href="/contact"
                 className="relative mt-7 inline-flex items-center gap-2 font-bold uppercase tracking-wider text-neon-400"
               >
                 Book a free trial

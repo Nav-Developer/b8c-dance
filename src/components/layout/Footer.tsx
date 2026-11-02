@@ -8,6 +8,11 @@ import DanceBackground from "@/components/ui/DanceGround";
 import { site } from "@/data/site";
 
 export default function Footer() {
+  const INSTAGRAM_URL = "https://www.instagram.com/nk_freaky/";
+  const WEBSITE_URL = "https://naveen-kumar-zeta.vercel.app/";
+  const link =
+    "transition hover:text-[#f3d9a0] hover:underline underline-offset-2";
+
   return (
     <footer className="border-t-[3px] border-neon-400">
       <DanceBackground
@@ -105,6 +110,26 @@ export default function Footer() {
         <div className="border-t border-white/10 px-6 py-5 text-center">
           <p className="text-xs uppercase tracking-[0.18em] text-white/50">
             © {new Date().getFullYear()} {site.name}. All rights reserved.
+          </p>
+          <p className="text-xs uppercase tracking-[0.18em] text-white/50">
+            Designed & Developed by{" "}
+            <a
+              href={WEBSITE_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="text-neon-400 transition hover:text-white"
+            >
+              Naveen Kumar
+            </a>
+            <span>·</span>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noreferrer"
+              className={link}
+            >
+              Instagram ↗
+            </a>
           </p>
         </div>
       </DanceBackground>
