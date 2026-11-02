@@ -140,13 +140,13 @@ export default function HeroStage() {
               className="mt-8 flex flex-wrap gap-4"
             >
               <Link
-                href="/menu"
+                href="/classes"
                 className="rounded-full bg-neon-400 px-8 py-3 font-black uppercase tracking-wider text-ink-950 transition hover:-translate-y-1 hover:shadow-[0_10px_0_#3f8f27]"
               >
                 View Classes
               </Link>
               <Link
-                href="/reservation"
+                href="/contact"
                 className="rounded-full border-2 border-white/80 px-8 py-3 font-black uppercase tracking-wider text-white transition hover:bg-white hover:text-ink-950"
               >
                 Book a free trial
