@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --ink-950: #050505;
+  --ink-900: #0b0f0a;
+  --ink-800: #121a10;
+  --neon-600: #3f8f27;
+  --neon-500: #5cb83a;
+  --neon-400: #7ad254;
+  --chalk-200: #f2f5ef;
+
+  --cream: #0d110c;
+  --ink: #ffffff;
+}
+
+@theme inline {
+  --color-ink-950: var(--ink-950);
+  --color-ink-900: var(--ink-900);
+  --color-ink-800: var(--ink-800);
+  --color-neon-600: var(--neon-600);
+  --color-neon-500: var(--neon-500);
+  --color-neon-400: var(--neon-400);
+  --color-chalk-200: var(--chalk-200);
+}
+
+body {
+  background-color: var(--ink-950);
+  background-image: radial-gradient(
+    rgba(92, 184, 58, 0.09) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+  color: var(--ink);
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.field {
+  flex: 1;
+  min-width: 0;
+  border-radius: 9999px;
+  background: var(--cream);
+  padding: 0.875rem 1.25rem;
+  font-size: 0.875rem;
+  color: var(--ink);
+  outline: none;
+}
+.field:focus {
+  box-shadow: 0 0 0 2px var(--neon-400);
+}
