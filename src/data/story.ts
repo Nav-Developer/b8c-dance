@@ -11,7 +11,7 @@ export type Chapter = {
   stats?: { label: string; value: number; suffix?: string }[];
 };
 
-const bg = assets.images.founders; // TODO: replace per chapter later
+const bg = assets.images.founder;
 
 export const chapters: Chapter[] = [
   {
