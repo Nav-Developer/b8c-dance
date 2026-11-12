@@ -1,14 +1,10 @@
-// put this at: src/data/site.ts
-// ONE place for every detail used by Footer, About, Classes, Contact, YouTube and Instagram.
-// Anything marked TODO is a placeholder: replace it with your real info.
-
 export const site = {
   name: "b8c Dance Company",
   fullName: "Bala's 8 Counts Dance Company",
   since: 2011,
 
-  phone: "+91 00000 00000",
-  whatsapp: "910000000000",
+  phone: "+91 9629202919",
+  whatsapp: "919629202919",
   email: "hello@example.com",
   address: "Coimbatore, Tamil Nadu",
 
@@ -27,10 +23,10 @@ export const site = {
   ],
 
   founder: {
-    name: "Bala Master", // TODO: confirm name and title
+    name: "Bala Master",
     role: "Founder & Choreographer",
     bio: "Bala leads the crew behind Bala's 8 Counts, a Coimbatore dance company that has been performing since 2011. From wedding welcome dances and sangeet to surprise flashmobs, corporate shows and college choreography, every piece is built around one idea: every count matters.", // TODO: edit
-    image: undefined as string | undefined, // e.g. "/about/bala.jpg". If empty, the logo is shown.
+    image: undefined as string | undefined,
   },
 
   classes: [

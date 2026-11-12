@@ -26,6 +26,7 @@ const links = [
   { label: "Home", href: "/" },
   { label: "Classes", href: "/classes" },
   { label: "About", href: "/about" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" },
 ];
 
